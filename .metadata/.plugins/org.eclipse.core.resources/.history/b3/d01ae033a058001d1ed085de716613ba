@@ -1,0 +1,31 @@
+package com.upskill.java_1;
+
+public class Variables {
+
+	public String country = "USA";					//Instance or global variable – variables declared in class, outside method
+	
+	public String country2 = "Russia";
+	
+	public static String region ="Amerca";			//static variable - variables belonging to class and don't require creating object
+	
+	public static void main(String[] args) {
+	
+		String city = "New York";					//local variable - variables declared in methods
+		
+	}
+	
+	public static void method(String country){				//method parameter - variables used as method parameter
+		
+		String city = "Bloomfield";
+		
+		String myCountry = country;
+	}
+
+	
+	public void test() {
+		
+		String city = "Buffalo";
+	}
+	
+
+}

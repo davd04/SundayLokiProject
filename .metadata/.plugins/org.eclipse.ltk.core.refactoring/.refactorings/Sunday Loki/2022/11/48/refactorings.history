@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;com.upskill.java_4.Encapsulation.ssn&apos; in &apos;com.upskill.java_4.Encapsulation&apos;&#x0D;&#x0A;- Original project: &apos;Sunday Loki&apos;&#x0D;&#x0A;- Original element: &apos;com.upskill.java_4.Encapsulation.ssn&apos;&#x0D;&#x0A;- Getter method name: &apos;getSsn&apos;&#x0D;&#x0A;- Setter method name: &apos;setSsn&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;ssn&apos;" flags="589830" getter="getSsn" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;com.upskill.java_4{Encapsulation.java[Encapsulation^ssn" insertion="2" setter="setSsn" stamp="1668985915118" version="1.0" visibility="1"/>
+</session>

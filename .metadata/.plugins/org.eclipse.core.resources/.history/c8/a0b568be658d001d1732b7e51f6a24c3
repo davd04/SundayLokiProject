@@ -1,0 +1,32 @@
+package BootCamp_2022;
+
+public class test {
+
+	public static void main(String[] args) {
+
+		
+		if(palindrome("pink") == true){
+			System.out.println("the word is a palindrome");
+		} else {
+			System.out.println("the word is not a palindrome");
+		}
+
+	}
+	
+	public static boolean palindrome(String word){
+		
+		int a = 0;
+		int b = word.length() - 1;
+		
+		while(b>a){
+			if (word.charAt(a) == word.charAt(b)){
+				return true;
+			}
+			++a;
+			--b;
+		}
+		return false;
+			
+	}
+
+}

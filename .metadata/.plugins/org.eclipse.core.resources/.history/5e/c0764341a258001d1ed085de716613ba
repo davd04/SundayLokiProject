@@ -1,0 +1,33 @@
+package com.upskill.java_1;
+
+public class MethodTypes {
+	
+	public static int hourlyIncome = 65;
+
+	public static void main(String[] args) {
+		MethodTypes obj = new MethodTypes();
+		obj.annualIncomevoid();
+		
+		System.out.println("My Monthly Income = "+ obj.montlyIncomeReturn());
+		
+		weeklyIncomestatic();
+
+	}
+	
+	public void annualIncomevoid(){
+		int calculateAnnualIncome = hourlyIncome * 2000;
+		System.out.println("My Annual Income = " + calculateAnnualIncome);
+		
+	}
+	
+	public static void weeklyIncomestatic(){
+		int calculateweeklyIncome = hourlyIncome * 40;
+		System.out.println("My Weekly Income = "+ calculateweeklyIncome);
+	}
+	
+	public int montlyIncomeReturn(){
+		int calculatemonthlyIncome = hourlyIncome * 180;
+		return calculatemonthlyIncome;
+	}
+
+}

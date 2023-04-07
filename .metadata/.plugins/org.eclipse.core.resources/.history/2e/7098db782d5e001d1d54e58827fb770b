@@ -1,0 +1,46 @@
+package com.upskill.java_2;
+
+public class Loop {
+
+	public static void main(String[] args) {
+		
+	//	practiceforloop();
+	//	practicewhileloop();
+	//	dowhileloop();
+		infiniteloop();
+		
+	}
+	
+	public static void practiceforloop(){
+		
+		int i;
+		
+		for(i = 10; i>=1; i--){
+			System.out.println("For Loops number = " + i);
+			
+		}
+	}
+		
+	public static void practicewhileloop(){
+		int i = 1;
+		while (i<=10) {
+			System.out.println("While Loops number = " + i);
+			i++;
+		}
+	}
+	
+	public static void dowhileloop(){
+		int i = 0;
+		do {
+			System.out.println("Do While number = " + i);
+			i = i + 10;
+		} while (i<=100);
+	}
+	
+	public static void infiniteloop(){
+		int i;
+		for(i = 1; ;i++){
+			System.out.println("Infinite loop number = " + i);
+		}
+	}
+}

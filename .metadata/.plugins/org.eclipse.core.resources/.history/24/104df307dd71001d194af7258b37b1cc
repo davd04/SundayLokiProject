@@ -1,0 +1,72 @@
+package com.upskill.Java_Assignments;
+
+import java.util.Scanner;
+
+public class Java_assignment_3_q1 {
+		String accname;
+		float amount;
+		boolean bool;
+		Scanner s = new Scanner(System.in);
+		
+	public static void main(String[] args){
+		Savings s = new Savings();
+		s.deposit(5000);
+		Checking c = new Checking();
+		c.deposit(1000);
+		c.withdrawal(3000);
+		
+		
+	}
+	
+	Java_assignment_3_q1(String accname){
+		this.accname = accname;
+		System.out.println("Account name: " + this.accname);
+		
+		System.out.println("Enter Initial amount for " + accname +" account");
+		this.amount = s.nextFloat();
+		if (this.amount <= 0){
+			bool = false;
+		} else {
+			System.out.println("Initial amount: " + this.amount);
+			bool = true;
+		}
+		while (bool == false) {
+			System.out.println("Invalid amount. Try again. Enter initial amount for " + accname + " account");
+			this.amount = s.nextFloat();
+			if (this.amount > 0) {
+				System.out.println("Initial amount: " + this.amount);
+				bool = true;
+			}
+		}
+	
+	}
+	
+	void deposit(float amount) {
+		this.amount = this.amount + amount;
+		System.out.println("New amount after deposit: " + this.amount);
+	}
+	
+	void withdrawal(float amount){
+		if(this.amount < amount) {
+			System.out.println("Insufficient Balance"); 
+		} else {
+			this.amount = this.amount - amount;
+			System.out.println("New amount after withdrawal: " + this.amount);
+		}
+	}
+}
+	
+	class Savings extends Java_assignment_3_q1 {
+		Savings() {
+			super("Savings");
+		}
+	}
+	
+	class Checking extends Java_assignment_3_q1 {
+
+		Checking() {
+			super("Checking");
+		}
+		
+	}
+

@@ -1,0 +1,39 @@
+package Java_assignment_test;
+
+import java.util.Scanner;
+
+public class Java_A3_Q1 {
+	
+	String accname;
+	float amount;
+	boolean bool;
+	Scanner s = new Scanner(System.in);
+	
+	Java_A3_Q1(String accname) {
+		this.accname = accname;
+		System.out.println("Account name: " + this.accname);
+		System.out.println("Enter initial amount for this " + accname + " account");
+		this.amount = s.nextInt();
+		if(this.amount <= 0){
+			bool = false;
+		} else{
+			System.out.println("Initial amount: " + this.amount);
+			bool = true;
+		}
+		while (bool == false) {
+			System.out.println("Invalid amount! Enter initial amount for this " + accname + " account");
+			this.amount = s.nextInt();
+			if(this.amount > 0){
+				System.out.println("Initial amount: " + this.amount);
+				bool =true;
+			}
+		}
+	}
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

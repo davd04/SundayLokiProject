@@ -1,0 +1,17 @@
+package com.upskill.Java_Assignments;
+
+import java.util.Scanner;
+
+public class Java_assignment_3_q1 {
+		String accname;
+		float amount;
+		boolean bool;
+		Scanner s = new Scanner(System.in);
+		
+	Java_assignment_3_q1(String accname){
+		this.accname = accname;
+		System.out.println("Account name: " + this.accname);
+		
+		
+	}
+}

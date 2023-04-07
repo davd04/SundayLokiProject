@@ -1,0 +1,55 @@
+package com.upskill.java_2;
+
+public class Java_Assignment_2 {
+
+	public static void main(String[] args) {
+		
+		int i = 50;
+		int grade = 100;
+		int a = 55;
+		int b = 8;
+		
+		while (i>=1){
+			System.out.print(i + " ");
+			i--;
+		}
+		
+	System.out.println();
+		
+	if(grade >= 90){
+		System.out.println("Grade A");
+		} 
+	else if (grade >= 80 && grade <= 89) {
+		System.out.println("Grade B");
+	}
+	else if (grade >= 70 && grade <= 79) {
+		System.out.println("Grade C");
+	}
+	else if (grade >= 60 && grade <= 69) {
+		System.out.println("Grade D");
+	}
+	else {
+		System.out.println("Fail");
+	}
+	
+	
+	if (a > b){
+		System.out.println("A = " + a + " is bigger than B = " + b);
+	} else {
+		System.out.println("B = " + b + " is bigger than A = " + a);
+	}
+	
+    int x;
+    int z = 1;
+	for(x = 1; x<=500; x++) {
+		System.out.print(x + " ");
+		z = z * 2;
+	}
+
+
+	
+	
+	}
+	
+}
+

@@ -1,0 +1,685 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1278014600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open Amazon Homepage",
+            "match": {
+              "location": "AmazonHomePageSteps.open_Amazon_Homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 41898193500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Change Language",
+        "description": "",
+        "id": "amazon-change-language-functionality;change-language",
+        "after": [
+          {
+            "result": {
+              "duration": 1466990700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterActions(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Open Amazon Homepage",
+            "match": {
+              "location": "AmazonHomePageSteps.open_Amazon_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2762026800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "mouse hover over language",
+            "match": {
+              "location": "AmazonHomePageSteps.mouse_hover_over_language()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 413180300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click Spanish",
+            "match": {
+              "location": "AmazonHomePageSteps.click_Spanish()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5125490200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "webpage should reload in Spanish",
+            "match": {
+              "location": "AmazonHomePageSteps.webpage_should_reload_in_Spanish()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Change Language Functionality",
+    "description": "",
+    "id": "amazon-change-language-functionality",
+    "keyword": "Feature",
+    "uri": "AmazonChangeLanguage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      },
+      {
+        "line": 1,
+        "name": "@smoke"
+      },
+      {
+        "line": 1,
+        "name": "@us-245"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 214100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open Amazon Homepage",
+            "match": {
+              "location": "AmazonHomePageSteps.open_Amazon_Homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12651812600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Amazon Gift Card",
+        "description": "",
+        "id": "amazon-gift-card-functionality;amazon-gift-card",
+        "after": [
+          {
+            "result": {
+              "duration": 1318100800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterActions(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Open Amazon Homepage",
+            "match": {
+              "location": "AmazonHomePageSteps.open_Amazon_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2389026100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on Gift Cards",
+            "match": {
+              "location": "AmazonHomePageSteps.click_on_Gift_Cards()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2885656700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click on eGift Cards",
+            "match": {
+              "location": "AmazonSearchResultSteps.click_on_eGift_Cards()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112445300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "select Gift Card Design",
+            "match": {
+              "location": "AmazonCartPageSteps.select_Gift_Card_Design()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 156315000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "select Design",
+            "match": {
+              "location": "AmazonCartPageSteps.select_Design()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 366111900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "select amount",
+            "match": {
+              "location": "AmazonCartPageSteps.select_amount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113008300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "select delivery",
+            "match": {
+              "location": "AmazonCartPageSteps.select_delivery()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5045453900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "select to",
+            "match": {
+              "location": "AmazonCartPageSteps.select_to()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2271844300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "select from",
+            "match": {
+              "location": "AmazonCartPageSteps.select_from()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2300154500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "select message",
+            "match": {
+              "location": "AmazonCartPageSteps.select_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2285952200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "select quantity",
+            "match": {
+              "location": "AmazonCartPageSteps.select_quantity()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2257558400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "select delivery date",
+            "match": {
+              "location": "AmazonCartPageSteps.select_delivery_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2148224400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "add to cart",
+            "match": {
+              "location": "AmazonCartPageSteps.add_to_cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Gift Card Functionality",
+    "description": "",
+    "id": "amazon-gift-card-functionality",
+    "keyword": "Feature",
+    "uri": "AmazonGiftCard.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      },
+      {
+        "line": 1,
+        "name": "@smoke"
+      },
+      {
+        "line": 1,
+        "name": "@us-246"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 160900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open Amazon Homepage",
+            "match": {
+              "location": "AmazonHomePageSteps.open_Amazon_Homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7618018400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Sign In for payment error options",
+        "description": "",
+        "id": "amazon-payment-error-functionality;sign-in-for-payment-error-options",
+        "after": [
+          {
+            "result": {
+              "duration": 935793500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterActions(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Open Amazon Homepage",
+            "match": {
+              "location": "AmazonHomePageSteps.open_Amazon_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3059935700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click on Help",
+            "match": {
+              "location": "AmazonHomePageSteps.click_on_Help()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2886189500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on Payment, charges or gift cards",
+            "match": {
+              "location": "AmazonSearchResultSteps.click_on_Payment_charges_or_gift_cards()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2082542500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should be asked to Sign In",
+            "match": {
+              "location": "AmazonHelpPageSteps.user_should_be_asked_to_Sign_In()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Payment Error Functionality",
+    "description": "",
+    "id": "amazon-payment-error-functionality",
+    "keyword": "Feature",
+    "uri": "AmazonPaymentError.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      },
+      {
+        "line": 1,
+        "name": "@smoke"
+      },
+      {
+        "line": 1,
+        "name": "@us-244"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8241655200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Create Pet ID",
+        "description": "",
+        "id": "pet-api-testing;create-pet-id",
+        "after": [
+          {
+            "result": {
+              "duration": 1422236800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterActions(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8797560300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Create pet upload image",
+            "match": {
+              "location": "PetstoreApiSteps.create_pet_upload_image()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 189532300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Get pet",
+            "match": {
+              "location": "PetstoreApiSteps.get_pet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 200156900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Delete pet",
+            "match": {
+              "location": "PetstoreApiSteps.delete_pet()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Pet Api Testing",
+    "description": "",
+    "id": "pet-api-testing",
+    "keyword": "Feature",
+    "uri": "PetApiTesting.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      },
+      {
+        "line": 1,
+        "name": "@api"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9534002200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Pet CRUD API",
+        "description": "",
+        "id": "petstore-api-testing;pet-crud-api",
+        "after": [
+          {
+            "result": {
+              "duration": 781331000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterActions(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 115674500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Create pet",
+            "match": {
+              "location": "PetstoreApiSteps.create_pet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 126565800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Get pet",
+            "match": {
+              "location": "PetstoreApiSteps.get_pet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 159225500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Update pet",
+            "match": {
+              "location": "PetstoreApiSteps.update_pet()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117768500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Get pet",
+            "match": {
+              "location": "PetstoreApiSteps.get_pet()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104023300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Delete pet",
+            "match": {
+              "location": "PetstoreApiSteps.delete_pet()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Petstore API Testing",
+    "description": "",
+    "id": "petstore-api-testing",
+    "keyword": "Feature",
+    "uri": "PetstoreApiTesting.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      },
+      {
+        "line": 1,
+        "name": "@api"
+      }
+    ]
+  }
+]

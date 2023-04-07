@@ -1,0 +1,23 @@
+package BootCamp_2022;
+
+public class test2 {
+
+	public static void main(String[] args) {
+		
+		test2 obj = new test2();
+		obj.reverse("Yes");
+
+	}
+
+	public static void reverse(String a){
+		
+		byte[] strarray = a.getBytes();
+		byte[] result = new byte[strarray.length];
+		
+		for(int i=0; i<strarray.length;i++){
+			result[i] = strarray[strarray.length-i-1];
+		}
+		System.out.println("reverse word: " + result);
+	}
+
+}

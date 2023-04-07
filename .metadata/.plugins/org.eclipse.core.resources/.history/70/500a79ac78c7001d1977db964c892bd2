@@ -1,0 +1,99 @@
+package BootCamp_2022;
+
+import java.util.HashMap;
+
+import com.upskill.java_1.MethodTypes;
+
+public class test2 extends MethodTypes{
+	
+	private String name = "yes";
+
+	public static void main(String[] args) {
+		
+		test2 obj = new test2();
+		
+		if(obj.palindrome("racecar") == true){
+			System.out.println("palindrome");
+		} else {
+			System.out.println("not palindrome");
+		}
+		
+		reverse("roast");
+		
+		int[] arr = {5,6,59,65,32,5,66};
+		System.out.println(slargest(arr));
+		
+		obj.factorial(6);
+		
+		if(duplicate(arr) == true){
+			System.out.println("duplicate");
+		} else {
+			System.out.println("not duplciate");
+		}
+
+	}
+	
+	public boolean palindrome(String word){
+	
+		int a= 0;
+		int b = word.length();
+		
+		while(a<b){
+			if(word.charAt(a) != word.charAt(b)){
+				return false;
+			}
+			++a;
+			--b;
+		}
+		return true;
+	}
+	
+	public static void reverse(String word){
+		byte[] str = word.getBytes();
+		byte[] result = new byte[str.length - 1];
+		
+		for(int i=0; i<str.length; i++){
+			result[i] += str[str.length-i-1];
+		}
+		
+		System.out.println(new String(result));
+	}
+	
+	public static Integer slargest(int[] arr){
+		int max = Integer.MIN_VALUE;
+		int secondmax = Integer.MIN_VALUE;
+		
+		for(int i=0; i<arr.length; i++){
+			if(max<arr[i]){
+				secondmax = max;
+				max = arr[i];
+			}
+			
+			if(max>arr[i] && arr[i]<secondmax){
+				secondmax = arr[i];
+			}
+		}
+		return secondmax;
+	}
+	
+	public void factorial(int a){
+		int factoral=a;
+		
+		for(int i=a-1; i>0; i--){
+			factoral = factoral*i;
+		}
+		
+		System.out.println("Factoral= " + factoral);
+	}
+	
+	public static boolean duplicate(int[] arr){
+		for(int i=0; i<arr.length; i++){
+			for(int j=i+1; j<arr.length;j++){
+				if(arr[i] == arr[j]) {
+					return true;
+				}
+			}
+		}
+		return false;
+	}
+}

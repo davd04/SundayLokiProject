@@ -1,0 +1,22 @@
+package com.upskill.java_1;
+
+public class Variables {
+
+	public String country = "USA";
+	
+	public static String region ="Amerca";
+	
+	public static void main(String[] args); {
+	
+		String city = "New York";
+		
+	}
+	
+	public void method(String country){
+		
+		String myCountry = country;
+	}
+
+	
+
+}

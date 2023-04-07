@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression" duration-ms="139150" started-at="2023-04-07T00:31:37Z" finished-at="2023-04-07T00:33:56Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:upskill.runners.RunnerClass@548b7f67]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Amazon" duration-ms="139150" started-at="2023-04-07T00:31:37Z" finished-at="2023-04-07T00:33:56Z">
+      <class name="upskill.runners.RunnerClass">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:upskill.runners.RunnerClass@548b7f67]" name="setUpClass" is-config="true" duration-ms="1578" started-at="2023-04-06T20:31:37Z" finished-at="2023-04-06T20:31:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:upskill.runners.RunnerClass@548b7f67]" name="feature" duration-ms="53910" started-at="2023-04-06T20:31:39Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2023-04-06T20:32:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amazon Change Language Functionality]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:upskill.runners.RunnerClass@548b7f67]" name="feature" duration-ms="36327" started-at="2023-04-06T20:32:33Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2023-04-06T20:33:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amazon Gift Card Functionality]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:upskill.runners.RunnerClass@548b7f67]" name="feature" duration-ms="16593" started-at="2023-04-06T20:33:09Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2023-04-06T20:33:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amazon Payment Error Functionality]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:upskill.runners.RunnerClass@548b7f67]" name="feature" duration-ms="18860" started-at="2023-04-06T20:33:26Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2023-04-06T20:33:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pet Api Testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:upskill.runners.RunnerClass@548b7f67]" name="feature" duration-ms="10947" started-at="2023-04-06T20:33:45Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2023-04-06T20:33:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Petstore API Testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="writeExtentReport()[pri:0, instance:upskill.runners.RunnerClass@548b7f67]" name="writeExtentReport" is-config="true" duration-ms="71" started-at="2023-04-06T20:33:56Z" finished-at="2023-04-06T20:33:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeExtentReport -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:upskill.runners.RunnerClass@548b7f67]" name="tearDownClass" is-config="true" duration-ms="428" started-at="2023-04-06T20:33:56Z" finished-at="2023-04-06T20:33:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- upskill.runners.RunnerClass -->
+    </test> <!-- Amazon -->
+  </suite> <!-- Regression -->
+</testng-results>

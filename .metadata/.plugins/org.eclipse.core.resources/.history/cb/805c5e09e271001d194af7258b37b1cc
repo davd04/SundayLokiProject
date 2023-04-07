@@ -1,0 +1,35 @@
+package com.upskill.Java_Assignments;
+
+public class Java_assignment3_q3 {
+	
+	void displayinterest(){
+		System.out.println("Default interest rates; None");
+	}
+
+	public static void main(String[] args) {
+		Java_assignment3_q3 obj = new Chasebank();
+		obj.displayinterest();
+		new Citybank().displayinterest();
+		new TDbank().displayinterest();
+
+	}
+
+}
+
+class Chasebank extends Java_assignment3_q3{
+	void displayinterest(){
+		System.out.println("Interest rate: 8%");
+	}
+}
+
+class Citybank extends Java_assignment3_q3{
+	void displayinterest(){
+		System.out.println("Interest rate: 7%");
+	}
+}
+
+class TDbank extends Java_assignment3_q3{
+	void displayinterest(){
+		System.out.println("Interest rate: 9%");
+	}
+}

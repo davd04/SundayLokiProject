@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;upskill.ebay.pageAction.EbayHomePageAction&apos; to &apos;EbayHomePageActions&apos;&#x0D;&#x0A;- Original project: &apos;SundayLokiProject&apos;&#x0D;&#x0A;- Original element: &apos;upskill.ebay.pageAction.EbayHomePageAction&apos;&#x0D;&#x0A;- Renamed element: &apos;upskill.ebay.pageAction.EbayHomePageActions&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;EbayHomePageAction&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java&lt;upskill.ebay.pageAction{EbayHomePageAction.java[EbayHomePageAction" matchStrategy="1" name="EbayHomePageActions" qualified="false" references="true" similarDeclarations="false" stamp="1675029137909" textual="false" version="1.0"/>
+</session>

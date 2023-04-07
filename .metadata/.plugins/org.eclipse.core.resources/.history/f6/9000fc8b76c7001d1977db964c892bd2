@@ -1,0 +1,41 @@
+package BootCamp_2022;
+
+import java.util.HashMap;
+
+import com.upskill.java_1.MethodTypes;
+
+public class test2 extends MethodTypes{
+	
+	private String name = "yes";
+
+	public static void main(String[] args) {
+		
+		test2 obj = new test2();
+		
+		if(obj.palindrome("racecar") == true){
+			System.out.println("palindrome");
+		} else {
+			System.out.println("not palindrome");
+		}
+		
+		reverse("roast");
+		
+		int[] arr = {5,6,59,65,32,5,66};
+		System.out.println(slargest(arr));
+		
+		obj.factorial(7);
+		
+		if(duplicate(arr) == true){
+			System.out.println("duplicate");
+		} else {
+			System.out.println("not duplciate");
+		}
+
+	}
+	
+	public boolean palindrome(String word){
+	
+		int a= 0;
+		int b = word.length();
+}
+}

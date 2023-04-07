@@ -1,0 +1,31 @@
+package com.upskill.java_2;
+
+public class Java_Assignment_2 {
+
+	public static void main(String[] args) {
+		
+		int i = 50;
+		int grade = 100;
+		
+		while (i>=1){
+			System.out.print(i + " ");
+			i--;
+		}
+		
+	System.out.println();
+		
+	if(grade >= 90){
+		System.out.println("Grade A");
+	}else if (grade >= 80){
+		System.out.println("Grade B");
+	}else if(grade >= 70) {
+		System.out.println("Grade C");
+	}else if(grade >= 60); {
+		System.out.println("Grade D");
+	}else {
+		System.out.println("Fail");
+		}	
+
+	}
+
+}
